@@ -81,7 +81,7 @@ mp_drawing = mp.solutions.drawing_utils
 def track():
     ## mirror the camera
     global label
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
 
     last_class = 12
     continuous_frame_count = 0
